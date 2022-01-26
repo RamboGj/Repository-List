@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import Header from "./components/Header"
 import RepoCard from "./components/repoCard"
 
 interface RepoProps {
@@ -23,7 +24,9 @@ function App() {
   }, [])
   
   return (
-    <div className="bg-gray-900">
+    <>
+    <div className="relative bg-gray-900">
+      <Header />
       <main className="bg-zin-900 h-full flex justify-center mx-auto">
       <ul className="mt-16 mb-24">
         {repoData.map(repo => {
@@ -34,6 +37,7 @@ function App() {
       </ul>
       </main>
     </div>
+    </>
   )
 }
 
