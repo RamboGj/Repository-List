@@ -47,10 +47,14 @@ export function Profile() {
                             </div>
                         </div>
                 </div>
-                
             </main>
-            
         </main>
+        <footer className="bg-zinc-900 h-20 flex align-center items-center ">
+            <div className="flex">
+                <p className="ml-4 text-gray-300 font-mono">Email de contato: <a className="hover:text-cyan-500 duration-300" href="mailto:jpramboguanabara@hotmail.com">jpramboguanabara@hotmail.com</a></p>
+                <p className="ml-16 text-gray-300 font-mono" >Nome: {info.name}</p>
+            </div>
+        </footer>
         </div>
         </>
     )

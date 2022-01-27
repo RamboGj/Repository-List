@@ -1,8 +1,8 @@
 import { HomeIcon } from "@heroicons/react/outline"
 import { IoMdPerson } from 'react-icons/io'
 import { RiGitRepositoryFill } from 'react-icons/ri'
-import { Link } from 'react-router-dom'
 import { CustomLink } from "./ActiveLink"
+
 export default function Header() {
     return (
         <>
