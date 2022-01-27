@@ -14,7 +14,7 @@ export default function Header() {
                 <div className="flex items-center hover:text-green-600 duration-300">
                     <IoMdPerson className="w-6 h-6 mr-2 " aria-hidden="true"/>
                     <Link className="hover:text-green-600 duration-300" to="/profile">PERFIL</Link>
-                </div>
+                </div> 
             </nav>
         </header>
         </>

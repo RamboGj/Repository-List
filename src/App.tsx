@@ -26,7 +26,7 @@ function App() {
   return (
     <>
     <div className="relative bg-gray-900">
-      <Header />
+      <Header/>
       <main className="bg-zin-900 h-full flex justify-center mx-auto">
       <ul className="mt-16 mb-24">
         {repoData.map(repo => {
