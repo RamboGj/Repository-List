@@ -1,14 +1,8 @@
 import { useEffect, useState } from "react";
 import Header from "../components/Header";
 
-interface GitHubUserProps {
-    login: string;
-    avatar_url: string;
-    bio: string;
-}
-
 export function Profile() {
-    const [info, setInfo] = useState<GitHubUserProps[]>([])
+    const [info, setInfo] = useState<any>([])
     const baseUrl = 'https://api.github.com/'
 
     useEffect(() => {
